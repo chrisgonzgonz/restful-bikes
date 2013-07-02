@@ -1,7 +1,6 @@
 class Station
   include DataMapper::Resource
   property :id, Serial
-  property :stationId, Integer
   property :stationName, String
   property :availableDocks, Integer
   property :totalDocks, Integer
